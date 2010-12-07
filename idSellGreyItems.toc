@@ -3,5 +3,5 @@
 ## Notes: Sells grey items when you open a vendor window.
 ## Author: Industrial
 
-addon.lua
+Addon.lua
 
