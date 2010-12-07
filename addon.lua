@@ -1,9 +1,6 @@
 local frame = CreateFrame('Frame')
 
-local sell_grey_items
-local onevent
-
-function sell_grey_items ()
+local function sell_grey_items ()
   local link
   for bag = 0, 4 do
     for slot = 0, GetContainerNumSlots(bag) do
@@ -16,7 +13,7 @@ function sell_grey_items ()
   end
 end
 
-function onevent (frame, event, ...)
+local function onevent (frame, event, ...)
   if event == 'MERCHANT_SHOW' then
     sell_grey_items()
   end
