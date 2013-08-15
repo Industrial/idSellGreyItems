@@ -1,4 +1,4 @@
-## Interface: 50001
+## Interface: 50300
 ## Title: idSellGreyitems
 ## Notes: Sells grey items when you open a vendor window.
 ## Author: Industrial
